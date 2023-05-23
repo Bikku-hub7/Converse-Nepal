@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: grey;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.heading{
+    text-align: center;
+    margin-top: 25px;
+}
+.heading h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 10px;
+}
+.heading p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+.about-us{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.about-us img{
+    flex: 0  10%;
+    max-width: 30%;
+    height: auto;
+}
+.content h2{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    margin: 15px 0px;
+}
+.content p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0px;
+}
